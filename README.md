@@ -1,2 +1,2 @@
 # Bootcamp-TQI
-Repositório para projetos realizados durante o Bootcamp TQI Fullstack Developer.
+Repositório criado para projetos realizados durante o Bootcamp TQI Fullstack Developer.
