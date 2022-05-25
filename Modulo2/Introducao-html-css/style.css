@@ -64,10 +64,15 @@ a {
 }
 
 .contact_list li {
-    text-align: center;
+    text-align: left;
     padding-bottom: 0.5em;
 }
 
 .icon {
     width: 20px;
+}
+
+#copy {
+    text-align: center;
+    color: rgb(89, 99, 99);
 }
