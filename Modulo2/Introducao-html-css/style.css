@@ -31,19 +31,19 @@ a {
     color: rgb(89, 99, 99);
 }
 
-.post_title {
-    font-size: 1em;
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 1em;
-}
-
 .post {
     background-color: white;
     padding: 1em;
     border: 3px solid black;
     margin-bottom: 3em;
     border-radius: 5px;
+}
+
+.post_title {
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 1em;
 }
 
 .post_contente {
