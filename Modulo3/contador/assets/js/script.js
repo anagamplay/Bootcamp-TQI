@@ -1,5 +1,5 @@
 let currentNumberWrapper = document.getElementById('currentNumber');
-let currentNumber = 0
+let currentNumber = 0;
 
 function decrement() {
     if (currentNumber > -10) {
