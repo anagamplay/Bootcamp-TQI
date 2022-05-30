@@ -10,13 +10,33 @@
 <body>
     <header>
         <h1>To do List</h1>
-        <p>Cria uma lista de afazeres:</p>
+        <p>Crie listas de afazeres:</p>
     </header>
-    <div>
-        <input type="text" name="tarefa" id="tarefa" placeholder="Digite aqui sua tarefa">
+    <form id="form_list">
+        <input type="text" name="list_name" id="list_name" placeholder="Digite aqui o nome da lista">
+        <button id="make_list" onclick="makeList()">Criar</button>
+    </form>
+    <div id="lista01">
+        <h2>Lista 01</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+    <div id="lista02">
+        <h2>Lista 02</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+    <div id="form_tarefa">
+        <input type="text" name="tarefa" id="tarefa" placeholder="Digite aqui uma tarefa">
         <input type="button" value="Adiconar" onclick="adicionar()">
         <div id="lista"></div>
     </div>
+    <button id="button_done">Concluir</button>
     <script src="assets/js/script.js"></script>
+    <!-- Adicionar um botão para editar a lista -->
 </body>
 </html>
