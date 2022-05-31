@@ -84,22 +84,33 @@ calculadora()
 
 function addition(n1, n2){
     n1 = Number(prompt(`Digite o primeiro número:`));
-
-    if (typeof(n1) == 'string') {
-        alert(`[ERRO] Tente digitar um número`);
-        addition();
-    }
-
-    n2 = prompt(`Digite o segundo número:`);
-
-    if (typeof(n2) == 'string') {
-        alert(`[ERRO] Tente digitar um número`);
-        n2 = prompt(`Digite o segundo número:`);
-    }
+    n2 = Number(prompt(`Digite o segundo número:`));
 
     alert(`Resultado: ${n1} + ${n2} = ${n1 + n2}.`)
-        var playAgain = prompt(
-            `Deseja fazer outra operação? s/n`
+
+    var playAgain = prompt(
+        `Deseja fazer outra operação? s/n`
     );
+
     playAgain == 's' ? calculadora() : 'Obrigada por fazer operações! Até mais!'
+}
+
+function subtraction(n1, n2){
+
+}
+
+function multiplication(n1, n2){
+    
+}
+
+function division(n1, n2){
+    
+}
+
+function mudulos(n1, n2){
+    
+}
+
+function exponentiation(n1, n2){
+    
 }
