@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>To do List</h1>
+        <p>Crie listas de afazeres:</p>
+    </header>
+    <!-- Criar a lista -->
+    <form id="form_list">
+        <input type="text" name="list_name" id="list_name" placeholder="Digite aqui o nome da lista">
+        <button id="make_list" onclick="makeList()">Criar</button>
+    </form>
+    
+    <div id="td_lists"> </div>
+    <!-- Lista de Exemplo -->
+    <!-- <div id="lista01">
+        <h2>Lista 01</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+    <div id="lista02">
+        <h2>Lista 02</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div> -->
+    <!-- Adicionar Item -->
+    <form id="form_tarefa">
+        <input type="text" name="tasks" id="tasks" placeholder="Digite aqui uma tarefa">
+        <input type="button" value="Adiconar" onclick="adicionar()">
+        <div id="lista"></div>
+    </form>
+    <!-- Concluir lista -->
+    <button id="button_done">Concluir</button>
+    <script src="assets/js/script.js"></script>
+
+    <!-- Adicionar um botão para editar a lista -->
+</body>
+</html>
