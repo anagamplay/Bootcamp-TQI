@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Button from '.Button'
 
-function sum(a, b) {
+function soma(a, b) {
   return a + b
 }
 
@@ -11,7 +12,7 @@ function primeiroJSX() {
   <div className='teste'>
     <h1>Ana Clara</h1>
     <p>Introdução ao ReactJS</p>
-    <h2>Soma: {sum(10,20)}</h2>
+    <h2>Soma: {soma(10,20)}</h2>
   </div>
   )
 }
