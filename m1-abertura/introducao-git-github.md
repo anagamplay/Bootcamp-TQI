@@ -44,6 +44,7 @@
 - Status dos arquivos: **git status**;
 - Clonar repositório: **git clone [url do repositório]**;
 - URL do repositório: **git remote -v**;
+- Tracar master por main: **git checkout -b main**;
 
 
 
