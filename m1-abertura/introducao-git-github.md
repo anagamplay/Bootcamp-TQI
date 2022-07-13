@@ -45,7 +45,10 @@
 - Clonar repositório: **git clone [url do repositório]**;
 - URL do repositório: **git remote -v**;
 - Trocar master por main: **git checkout -b main**;
-- Como resolver ‘fatal: refusing to merge unrelated histories’: **git pull origin main --allow-unrelated-histories**
+- Como resolver ‘fatal: refusing to merge unrelated histories’: **git pull origin main --allow-unrelated-histories**;
+- Criar uma nova branch: **git branch [nome da branch]**;
+- Trocar de branch: **git checkout [branch]**;
+- Como unir branches: **git checkout main** e depois **git merch [branch]**;
 
 
 
