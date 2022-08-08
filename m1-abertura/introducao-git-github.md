@@ -44,7 +44,7 @@
 - Status dos arquivos: **git status**;
 - Clonar repositório: **git clone [url do repositório]**;
 - URL do repositório: **git remote -v**;
-- Trocar master por main: **git checkout -b main**;
+- Trocar master por main: **git branch -m master main**;
 - Como resolver ‘fatal: refusing to merge unrelated histories’: **git pull origin main --allow-unrelated-histories**;
 - Criar uma nova branch: **git branch [nome da branch]**;
 - Trocar de branch: **git checkout [branch]**;
