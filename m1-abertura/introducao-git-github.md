@@ -38,7 +38,7 @@
 - Enviar arquivos locais para o repositório remoto: **git push origin master**;
 - Atualizar repositório local: **git pull origin master**;
 
-## Outros comandos no Git Bash: 
+## Outros comandos do Git: 
 - Mostrar arquivos ocultos: **ls -a**;
 - Mover arquivos: **mv [arquivo] [repositório]**;
 - Status dos arquivos: **git status**;
