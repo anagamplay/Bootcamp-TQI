@@ -48,8 +48,8 @@
 - Como resolver ‘fatal: refusing to merge unrelated histories’: **git pull origin main --allow-unrelated-histories**;
 - Criar uma nova branch: **git branch [nome da branch]**;
 - Trocar de branch: **git checkout [branch]**;
-- Como unir branches: **git checkout main** e depois **git merch [branch]**;
-- Como atualizar sua branch: **git pull origin main --rebase**;
+- Unir branches: **git checkout main** e depois **git merch [branch]**;
+- Atualizar sua branch: **git pull origin main --rebase**;
 
 
 
